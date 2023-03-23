@@ -1,0 +1,979 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pretendard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />   
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./assets/js/textSplit.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="wrapper">
+        <header class="header">
+                <div class="header-area">
+                    <h1 class="logo"><a href=""><span>PRETENDARD</span></a></h1>
+                    <div class="pangram">
+                        <a href="" class="head-left">
+                            <span>PRETENDARD STORY</span>
+                        </a>
+                        <a href="" class="head-left">
+                            <span>+ 프리텐다드</span>
+                        </a>
+                    </div>
+                    <a href="" class="wave head-right">
+                     폰트 다운받기
+                    </a>
+                </div>
+
+            <nav class="side-area">
+                <div class="btn-wrap">
+                    <button class="btn-menu">
+                        <span class="side-label">Table of Contents</span>
+                        <span class="blind">메뉴열기</span> 
+                        <span class="menu-open"></span>
+                    </button>
+                </div>
+                <div class="side-inner">
+                    <div class="side-top">
+                        <h2 class="title">PRETENDARD</h2>
+                        <ul class="top-list">
+                            <li class="top-item">
+                                <a href="" class="link-top">
+                                    <span class="top-number">①</span>
+                                    <span class="top-txt">Introduction</span>
+                                </a>
+                            </li>
+                            <li class="top-item">
+                                <a href="" class="link-top">
+                                    <span class="top-number">②</span>
+                                    <span class="top-txt">From Sans to Serif</span>
+                                </a>
+                            </li>
+                            <li class="top-item">
+                                <a href="" class="link-top">
+                                    <span class="top-number">③</span>
+                                    <span class="top-txt">Glyph Set</span>
+                                </a>
+                            </li>
+                            <li class="top-item">
+                                <a href="" class="link-top">
+                                    <span class="top-number">④</span>
+                                    <span class="top-txt">Font Sampler</span>
+                                </a>
+                            </li>
+                            <li class="top-item">
+                                <a href="" class="link-top">
+                                    <span class="top-number">⑤</span>
+                                    <span class="top-txt">Fragment in Use</span>
+                                </a>
+                            </li>
+                            <li class="top-item">
+                                <a href="" class="link-top">
+                                    <span class="top-number">⑥</span>
+                                    <span class="top-txt">Special Characters</span>
+                                </a> 
+                            </li>
+                        </ul>
+                        <div class="top-item"><a href="" class="link-top"><span class="green">[ 폰트 다운받기 ]</span></a></div>
+                    </div>
+                    <div class="side-bottom">
+                        <div class="bottom-inner">
+                            <a href="" class="link-bottom">
+                                <span class="top-txt">프리텐다드 디자인 </span>
+                            </a>
+                            <a href="" class="link-bottom">
+                                <span class="top-txt">폰트 더보기</span>
+                            </a>
+                        </div>
+                        <div class="bottom-util">
+                            <ul class="util-list">
+                                <li class="util-item">
+                                    <a href="" class="util-item">Terms & Conditions</a>
+                                </li>
+                                <li class="util-item">
+                                    <a href="" class="util-item">FAQ</a>
+                                </li>
+                                <li class="util-item">
+                                    <a href="" class="util-item">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+                <section class="sc-title">
+                    <div class="wrap-area">
+                        <div class="title-area">
+                            <h2 class="title-logo">
+                                <span class="blind">pretendard</span>
+                                <div class="title-date">
+                                    <span class="date-left">②⓪</span>
+                                    <span class="date-right">②③</span>
+                                </div>
+                                <div class="title-wrap">
+                                    <div class="title-pretendard">
+                                        <div class="title-txt">
+                                            <span class="visible-p">P</span>
+                                            <div class="rolling">
+                                                <span>P</span>
+                                                <span>P</span>
+                                                <span>P</span>
+                                                <span>P</span>
+                                             </div>
+                                        </div>
+                                        <div class="title-txt">
+                                            <span class="visible-r">R</span>
+                                            <div class="rolling">
+                                                <span>R</span>
+                                                <span>R</span>
+                                                <span>R</span>
+                                                <span>R</span>
+                                             </div>
+                                        </div>
+                                        <div class="title-txt">
+                                            <span class="visible-a">E</span>
+                                            <div class="rolling">
+                                                <span>E</span>
+                                                <span>E</span>
+                                                <span>E</span>
+                                                <span>E</span>
+                                             </div>
+                                        </div>
+                                        <div class="title-txt">
+                                            <span class="visible-g">T</span>
+                                            <div class="rolling">
+                                                <span>T</span>
+                                                <span>T</span>
+                                                <span>T</span>
+                                                <span>T</span>
+                                             </div>
+                                        </div>
+                                        <div class="title-txt">
+                                            <span class="visible-m">E</span>
+                                            <div class="rolling">
+                                                <span>E</span>
+                                                <span>E</span>
+                                                <span>E</span>
+                                                <span>E</span>
+                                             </div>
+                                        </div>
+                                        <div class="title-txt">
+                                            <span class="visible-n">N</span>
+                                            <div class="rolling">
+                                                <span>N</span>
+                                                <span>N</span>
+                                                <span>N</span>
+                                                <span>N</span>
+                                             </div>
+                                        </div>
+                                             <div class="title-txt">
+                                                <span class="visible-n">D</span>
+                                                <div class="rolling">
+                                                    <span>D</span>
+                                                    <span>D</span>
+                                                    <span>D</span>
+                                                    <span>D</span>
+                                                 </div>
+                                            </div>
+                                            <div class="title-txt">
+                                                <span class="visible-t">A</span>
+                                                <div class="rolling">
+                                                    <span>A</span>
+                                                    <span>A</span>
+                                                    <span>A</span>
+                                                    <span>A</span>
+                                                 </div>
+                                            </div>
+                                            <div class="title-txt">
+                                                <span class="visible-r">R</span>
+                                                <div class="rolling">
+                                                    <span>R</span>
+                                                    <span>R</span>
+                                                    <span>R</span>
+                                                    <span>R</span>
+                                                 </div>
+                                            </div>
+                                            <div class="title-txt">
+                                                <span class="visible-n">D</span>
+                                                <div class="rolling">
+                                                    <span>D</span>
+                                                    <span>D</span>
+                                                    <span>D</span>
+                                                    <span>D</span>
+                                                 </div>
+                                            </div>
+                                        </div>
+                        
+                                </div>
+                            </h2>
+                        </div>
+                        <div class="title-bottom">
+                            <div class="bottom-left">
+                                <p class="desc">A New 【Free to Try】 Font</p>
+                                <p class="desc">by Francesca Bolognini & Mathieu Desjardins</p>
+                            </div>
+                            <div href="" class="bottom-right">
+                                <p class="desc">Available exclusively at</p>
+                                <p class="desc">cactus.tistory.com</p>
+                            </div>
+                        </div>
+                        <div class="title-bg">
+                            <div class="title-wrap front">
+                                <div class="char char1">
+                                    <span class="frag"><img src="./assets/images/pretendard.png" alt=""></span>
+                                </div>
+                                <div class="char char2">
+                                    <span class="frag"><img src="./assets/images/pretendard1.png" alt=""></span>
+                                </div>
+                        
+                                <div class="char char3">
+                                    <span class="frag"><img src="./assets/images/pretendard2.png" alt=""></span>
+                                </div>
+                                <div class="char char4">
+                                    <span class="frag"><img src="./assets/images/pretendard3.png" alt=""></span>
+                                </div>
+                                <div class="char char5">
+                                    <span class="frag"><img src="./assets/images/pretendard4.png" alt=""></span>
+                                </div>
+                                <div class="char char6">
+                                    <span class="frag"><img src="./assets/images/pretendard5.png" alt=""></span>
+                                </div>
+                                <div class="char char7">
+                                    <span class="frag"><img src="./assets/images/pretendard6.png" alt=""></span>
+                                </div>
+                                <div class="char char8">
+                                    <span class="frag"><img src="./assets/images/pretendard7.png" alt=""></span>
+                                </div>
+                                <div class="char char9">
+                                    <span class="frag"><img src="./assets/images/pretendard8.png" alt=""></span>
+                                </div>
+                                <div class="char char10">
+                                    <span class="frag"><img src="./assets/images/pretendard9.png" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="title-wrap back">
+                                <div class="char char1">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut1.png" alt=""></span>
+                                </div>
+                                <div class="char char2">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut1-1.png" alt=""></span>
+                                </div>
+                        
+                                <div class="char char3">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut2.png" alt=""></span>
+                                </div>
+                                <div class="char char4">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut2-1.png" alt=""></span>
+                                </div>
+                                <div class="char char5">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut3.png" alt=""></span>
+                                </div>
+                                <div class="char char6">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut3-1.png" alt=""></span>
+                                </div>
+                                <div class="char char7">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut4.png" alt=""></span>
+                                </div>
+                                <div class="char char8">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut4-1.png" alt=""></span>
+                                </div>
+                                <div class="char char9">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut5.png" alt=""></span>
+                                </div>
+                                <div class="char char10">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut5-1.png" alt=""></span>
+                                </div>
+                                <div class="char char11">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut6.png" alt=""></span>
+                                </div>
+                                <div class="char char12">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut6-1.png" alt=""></span>
+                                </div>
+                        
+                                <div class="char char13">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut7.png" alt=""></span>
+                                </div>
+                                <div class="char char14">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut7-1.png" alt=""></span>
+                                </div>
+                                <div class="char char15">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut8.png" alt=""></span>
+                                </div>
+                                <div class="char char16">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut8-1.png" alt=""></span>
+                                </div>
+                                <div class="char char17">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut9.png" alt=""></span>
+                                </div>
+                                <div class="char char18">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut9-1.png" alt=""></span>
+                                </div>
+                                <div class="char char19">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut10.png" alt=""></span>
+                                </div>
+                                <div class="char char20">
+                                    <span class="frag"><img src="./assets/images/pretendard_cut10-1.png" alt=""></span>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </section>
+            <div class="inner">
+                <section class="sc-intro">
+                    <h2 class="blind">폰트 소개글</h2>
+                    <div class="intro-txt">
+                        <div class="txt-left">
+                            <span class="wrap"><span class="line">Apple의 system-ui가 익숙한 나로서는 </span></span>
+                            <span class="wrap"><span class="line">San Francisco와 Apple SD 산돌고딕 Neo가 </span></span>
+                            <span class="wrap"><span class="line">없는 다른 환경에서 이를 대체할 수 있는 </span></span>
+                            <span class="wrap"><span class="line">글꼴을 꾸준히 갈망해왔다. </span></span>
+                            <span class="wrap"><span class="line">Inter는 San Francisco가 없는 다른 </span></span>
+                            <span class="wrap"><span class="line">환경에서 대체 역할을 쏠쏠히 해오고 있다고는 하지만, </span></span>
+                            <span class="wrap"><span class="line">타협 없이 네오 그로테스크의 뜻을 가진 </span></span>
+                            <span class="wrap"><span class="line">San Francisco와 달리 몇몇 소문자 글자가 </span></span>
+                            <span class="wrap"><span class="line">휴머니스트적인 인상을 가지고 있기 때문에, </span></span>
+                            <span class="wrap"><span class="line">이를 다듬어 아예 완벽한 따라쟁이를 만들어버리는 것은 </span></span>
+                            <span class="wrap"><span class="line"> 어떨까 싶은 것이다. </span></span>
+                        </div>
+                        <div class="txt-right">
+                                <span class="wrap"><span class="line">기본적인 글꼴 방향은 주어진 리소스가 허락하는 </span></span>
+                                <span class="wrap"><span class="line">선에서 최대한 눈에 익숙하며, 글꼴에 구태여 </span></span>
+                                <span class="wrap"><span class="line">손을 보지 않아도 되게끔 만들자 였다.</span></span>
+                                <span class="wrap"><span class="line">Apple의 타이포그래피 환경에 익숙해</span></span> 
+                                <span class="wrap"><span class="line">다른 환경에서도 그러한 조형과 얼마큼 </span></span>
+                                <span class="wrap"><span class="line">함께하길 바란다면, 또는 표준을 구성하는 데 </span></span>
+                                <span class="wrap"><span class="line">마땅한 글꼴이 없어 어려움이 있는 상황이라면</span></span>
+                                <span class="wrap"><span class="line">이 글꼴이 도움이 되었으면 한다.</span></span>
+                        </div>
+                    </div>
+                    <div class="intro-inner">
+                        <div class="intro-font">
+                            <div class="img-wrap"><img src="./assets/images/a.png" alt=""></div>
+                            <ul class="intro-list">
+                                <li class="intro-item">
+                                    <i class="board"></i>
+                                    <span>글꼴이름</span>
+                                    <span>Pretendard</span>
+                                </li>
+                                <li class="intro-item">
+                                    <i class="board"></i>
+                                    <span>최초 릴리즈</span>
+                                    <span>21.06.28</span>
+                                </li>
+                                <li class="intro-item">
+                                    <i class="board"></i>
+                                    <span>최근 업데이트</span>
+                                    <span>22.10.08</span>
+                                </li>
+                                <li class="intro-item">
+                                    <i class="board"></i>
+                                    <span>최신 버전</span>
+                                    <span>1.3.6</span>
+                                </li>
+                                <li class="intro-item">
+                                    <i class="board"></i>
+                                    <span>지원 포맷</span>
+                                    <span>OTF, TTF, WOFF,  WOFF2, EOT</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="intro-contents">
+                            <div class="intro-info">
+                                <span class="wrap"><span class="line">Apple SD 산돌고딕 Neo와 가능한 같은</span></span>
+                                <span class="wrap"><span class="line">구조를 가져가기 위해 1%도 되지 않는 비율을 </span></span>
+                                <span class="wrap"><span class="line">몇 번이나 조정하는 등 여러 시행착오를 거쳤다. </span></span>
+                                <span class="wrap"><span class="line"> 가장 먼저 Apple SD 산돌고딕 Neo와 비교했을 때</span></span>
+                                <span class="wrap"><span class="line">현저히 다른 글자 속공간을 맞추고, 라틴 글자와 같이 두었을 때  </span></span>
+                                <span class="wrap"><span class="line">서로 맞지 않는 글자처럼 보이지 않게 크기를 맞췄다. </span></span>
+                                <span class="wrap"><span class="line">그 다음 대문자와 위치를 알맞게 맞춘 뒤 조정이 일단락된 듯해  </span></span>
+                                <span class="wrap"><span class="line"> 글꼴을 써보니 한글꼴의 비율이 어딘가 길쭉해 보여 높이를 조금 </span></span>
+                                <span class="wrap"><span class="line">줄이고, 익숙한 회색도로 맞추기 위해 굵기도 몇 번 조정을 거쳐  </span></span>
+                                <span class="wrap"><span class="line">최종적으로 본고딕 한글꼴에서 2% 더 얇게 글자를 다듬었다. </span></span>
+                            </div>
+                            <div class="intro-info">
+                                <span class="wrap"><span class="line">Pretendard에서는 본고딕 소스로부터</span></span>
+                                <span class="wrap"><span class="line">Black 마스터를 만들어낸 뒤 이를 </span></span>
+                                <span class="wrap"><span class="line">9개 글자가족으로 분화해 본고딕에는 없던</span></span>
+                                <span class="wrap"><span class="line">SemiBold와 ExtraBold 굵기를 지원한다.</span></span>
+                                <span class="wrap"><span class="line"> 또한 가변 속성을 지원해 타이포그래피 트렌드에서</span></span>
+                                <span class="wrap"><span class="line"> 굵기에 대한 얼마큼의 타협 없이 생각하는 만큼</span></span>
+                                <span class="wrap"><span class="line"> 쓰는 것도 가능하다.</span></span>
+
+                            </div>
+                    
+                            <a href="" class="link-inner"> 
+                                <i class="board"></i>
+                                <span class="line">폰트 설명 더보기</span> 
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <section class="sc-info">
+
+                    <div class="bg-wrapper">
+                        <div class="bg-area">
+                            <div class="info-txt">
+                                <p class="cuts">4 CUTS</p>
+                                <p class="styles">9 STYLES</p>
+                                <p class="">581 GLYPHS</p>
+                                <div class="bg-wrap">
+                                    <div class="char char1">
+                                        <span class="frag"><img src="./assets/images/a1.png" alt=""></span>
+                                    </div>
+                                    <div class="char char2">
+                                        <span class="frag"><img src="./assets/images/a2.png" alt=""></span>
+                                    </div>
+                                    <div class="char char3">
+                                        <span class="frag"><img src="./assets/images/a3.png" alt=""></span>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </section>
+                <section class="sc-random">
+                    <div class="rail-wrap">
+                        <h2 class="blind">폰트 굵기변형</h2>
+                        <div class="random-rail">
+                            <p class="rail-sans">
+                                <span>✳</span>
+                                UNLIMITED COMBINATIONS
+                            </p>
+                            <p class="rail-sans">
+                                <span>●</span>
+                                AND SO MANY POSSIBILITIES
+                            </p>
+                            <p class="rail-sans">
+                                <span>✳</span>
+                                UNLIMITED COMBINATIONS
+                            </p>
+                            <p class="rail-sans">
+                                <span>●</span>
+                                AND SO MANY POSSIBILITIES
+                            </p>
+                            <p class="rail-sans">
+                                <span>✳</span>
+                                UNLIMITED COMBINATIONS
+                            </p>
+                            <p class="rail-sans">
+                                <span>●</span>
+                                AND SO MANY POSSIBILITIES
+                            </p>
+                        </div>
+                        <div class="random-rail">
+                            <p class="rail-sans">
+                                <span>✳</span>
+                                UNLIMITED COMBINATIONS
+                            </p>
+                            <p class="rail-sans">
+                                <span>●</span>
+                                AND SO MANY POSSIBILITIES
+                            </p>
+                            <p class="rail-sans">
+                                <span>✳</span>
+                                UNLIMITED COMBINATIONS
+                            </p>
+                            <p class="rail-sans">
+                                <span>●</span>
+                                AND SO MANY POSSIBILITIES
+                            </p>
+                            <p class="rail-sans">
+                                <span>✳</span>
+                                UNLIMITED COMBINATIONS
+                            </p>
+                            <p class="rail-sans">
+                                <span>●</span>
+                                AND SO MANY POSSIBILITIES
+                            </p>
+                        </div>
+                    </div>
+                    <div class="random-contents">
+                        <div class="contents-wrap">
+                            <div class="contents">
+                                <span class="txt txt1"><span class="word">①SO</span></span> 
+                                <span class="txt txt2"><span class="word">MANY THINGS</span></span>
+                            </div>
+                            <div class="contents">
+                            <span class="txt txt3"><span class="word">②〖ARE POSSIBLE〗</span></span>
+                            <span class="txt txt4"><span class="word">AS LONG AS</span></span>
+                            </div>
+                            <div class="contents">
+                                <span class="txt txt5"><span class="word">③YOU</span></span>
+                                <span class="txt txt6"><span class="word">DON'T KNOW</span></span>
+                            </div>
+                            <div class="contents">
+                                <span class="txt txt7"><span class="word">④THEY</span></span>
+                                <span class="txt txt8"><span class="word">ARE IMPOSSIBLE</span></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+            <section class="sc-font">
+                <h2 class="blind">글자 써보기</h2>
+                <div class="font-area">
+                    <div class="font-wrap">
+                            <div class="font-current"><button value="100" class="btn-font current">Pretendard Thin</button></div>
+                        <div class="font-list">
+                            <button data-weight="100" class="btn-font">Pretendard Thin</button>
+                            <button data-weight="200" class="btn-font">Pretendard Extra Light</button>
+                            <button data-weight="300" class="btn-font">Pretendard Light</button>
+                            <button data-weight="400" class="btn-font">Pretendard Regular</button>
+                            <button data-weight="500" class="btn-font">Pretendard Medium</button>
+                            <button data-weight="600" class="btn-font">Pretendard Semi Bold</button>
+                            <button data-weight="700" class="btn-font">Pretendard Bold</button>
+                            <button data-weight="800" class="btn-font">Pretendard Extra Bold</button>
+                            <button data-weight="900" class="btn-font">Pretendard Black</button>
+                        </div>
+                    </div>
+                    <div class="font-box">
+                       <div class="font-contents">
+                           <div class="font-title">
+                            <h3>
+                                프리텐다드는 <br>
+                                가장 기본적이고 완벽한<br>
+                                서체들을 바탕으로 디자인한<br>
+                                새로운 서체입니다.<br>
+                            </h3>
+                           </div>
+                           <div class="font-list">
+                            <span class="font-item">!</span>
+                            <span class="font-item">"</span>
+                            <span class="font-item">#</span>
+                            <span class="font-item">$</span>
+                            <span class="font-item">%</span>
+                            <span class="font-item">;</span>
+                            <span class="font-item">'</span>
+                            <span class="font-item">(</span>
+                            <span class="font-item">)</span>
+                            <span class="font-item">*</span>
+                            <span class="font-item">+</span>
+                            <span class="font-item">,</span>
+                            <span class="font-item">-</span>
+                            <span class="font-item">.</span>
+                            <span class="font-item">/</span>
+                            <span class="font-item">0</span>
+                            <span class="font-item">1</span>
+                            <span class="font-item">2</span>
+                            <span class="font-item">3</span>
+                            <span class="font-item">4</span>
+                            <span class="font-item">5</span>
+                            <span class="font-item">6</span>
+                            <span class="font-item">7</span>
+                            <span class="font-item">8</span>
+                            <span class="font-item">9</span>
+                            <span class="font-item">:</span>
+                            <span class="font-item">=</span>
+                            <span class="font-item">?</span>
+                            <span class="font-item">@</span>
+                            <span class="font-item">A</span>
+                            <span class="font-item">B</span>
+                            <span class="font-item">D</span>
+                            <span class="font-item">E</span>
+                            <span class="font-item">F</span>
+                            <span class="font-item">G</span>
+                            <span class="font-item">H</span>
+                            <span class="font-item">I</span>
+                            <span class="font-item">J</span>
+                            <span class="font-item">K</span>
+                            <span class="font-item">L</span>
+                            <span class="font-item">M</span>
+                            <span class="font-item">N</span>
+                            <span class="font-item">O</span>
+                            <span class="font-item">P</span>
+                            <span class="font-item">Q</span>
+                            <span class="font-item">R</span>
+                            <span class="font-item">X</span>
+                            <span class="font-item">T</span>
+                            <span class="font-item">U</span>
+                            <span class="font-item">V</span>
+                            <span class="font-item">W</span>
+                            <span class="font-item">X</span>
+                            <span class="font-item">Y</span>
+                            <span class="font-item">P</span>
+                            <span class="font-item">{</span>
+                            <span class="font-item">}</span>
+                            <span class="font-item">a</span>
+                            <span class="font-item">b</span>
+                            <span class="font-item">c</span>
+                            <span class="font-item">d</span>
+                            <span class="font-item">e</span>
+                            <span class="font-item">f</span>
+                            <span class="font-item">g</span>
+                            <span class="font-item">h</span>
+                            <span class="font-item">i</span>
+                            <span class="font-item">j</span>
+                            <span class="font-item">k</span>
+                            <span class="font-item">l</span>
+                            <span class="font-item">m</span>
+                            <span class="font-item">n</span>
+                            <span class="font-item">o</span>
+                            <span class="font-item">p</span>
+                            <span class="font-item">q</span>
+                            <span class="font-item">r</span>
+                            <span class="font-item">x</span>
+                            <span class="font-item">t</span>
+                            <span class="font-item">u</span>
+                            <span class="font-item">v</span>
+                            <span class="font-item">w</span>
+                            <span class="font-item">x</span>
+                            <span class="font-item">y</span>
+                            <span class="font-item">z</span>
+                            <span class="font-item">!</span>
+                            <span class="font-item">"</span>
+                            <span class="font-item">#</span>
+                            <span class="font-item">$</span>
+                            <span class="font-item">%</span>
+                            <span class="font-item">;</span>
+                            <span class="font-item">'</span>
+                            <span class="font-item">(</span>
+                            <span class="font-item">)</span>
+                            <span class="font-item">*</span>
+                            <span class="font-item">+</span>
+                            <span class="font-item">,</span>
+                            <span class="font-item">-</span>
+                            <span class="font-item">.</span>
+                            <span class="font-item">/</span>
+                            <span class="font-item">0</span>
+                            <span class="font-item">1</span>
+                            <span class="font-item">2</span>
+                            <span class="font-item">3</span>
+                            <span class="font-item">4</span>
+                            <span class="font-item">5</span>
+                            <span class="font-item">6</span>
+                            <span class="font-item">7</span>
+                            <span class="font-item">8</span>
+                            <span class="font-item">9</span>
+                            <span class="font-item">:</span>
+                            <span class="font-item">=</span>
+                            <span class="font-item">?</span>
+                            <span class="font-item">@</span>
+                            <span class="font-item">A</span>
+                            <span class="font-item">B</span>
+                            <span class="font-item">D</span>
+                            <span class="font-item">E</span>
+                            <span class="font-item">F</span>
+                            <span class="font-item">G</span>
+                            <span class="font-item">H</span>
+                            <span class="font-item">I</span>
+                            <span class="font-item">J</span>
+                            <span class="font-item">K</span>
+                            <span class="font-item">L</span>
+                            <span class="font-item">M</span>
+                            <span class="font-item">N</span>
+                            <span class="font-item">O</span>
+                            <span class="font-item">P</span>
+                            <span class="font-item">Q</span>
+                            <span class="font-item">R</span>
+                            <span class="font-item">X</span>
+                            <span class="font-item">T</span>
+                            <span class="font-item">U</span>
+                            <span class="font-item">V</span>
+                            <span class="font-item">W</span>
+                            <span class="font-item">X</span>
+                            <span class="font-item">Y</span>
+                            <span class="font-item">P</span>
+                            <span class="font-item">{</span>
+                            <span class="font-item">}</span>
+                            <span class="font-item">a</span>
+                            <span class="font-item">b</span>
+                            <span class="font-item">c</span>
+                            <span class="font-item">d</span>
+                            <span class="font-item">e</span>
+                            <span class="font-item">f</span>
+                            <span class="font-item">g</span>
+                            <span class="font-item">h</span>
+                            <span class="font-item">i</span>
+                            <span class="font-item">j</span>
+                            <span class="font-item">k</span>
+                            <span class="font-item">l</span>
+                            <span class="font-item">m</span>
+                            <span class="font-item">n</span>
+                            <span class="font-item">o</span>
+                            <span class="font-item">p</span>
+                            <span class="font-item">q</span>
+                            <span class="font-item">r</span>
+                            <span class="font-item">x</span>
+                            <span class="font-item">t</span>
+                            <span class="font-item">u</span>
+                            <span class="font-item">v</span>
+                            <span class="font-item">w</span>
+                            <span class="font-item">x</span>
+                            <span class="font-item">y</span>
+                            <span class="font-item">z</span>
+                            <span class="font-item">^</span>
+                            <span class="font-item">*</span>
+                            <span class="font-item">&</span>
+                            <span class="font-item">%</span>
+                           </div>
+                       </div>         
+                        <div class="font-prev">
+                            <span>!</span>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+            <div class="inner">
+                <section class="sc-try">
+                    <span class="try-title">Font</span>
+                    <div class="try-box">
+                        <div class="try-form">  
+                            <label for="try-size" class="try-label">
+                                <span>Size</span>
+                                <span class="val1">165px</span>
+                            </label>
+                            <div class="range-form"><input id="try-size" type="range" min="50" max="321" value ="165"></div>
+                        </div>
+                    
+                        <div class="try-form">
+                            <label for="try-weight" class="try-label">
+                                <span>Weight</span>
+                                <span class="val2">400</span>
+                            </label>
+                            <div class="range-form"><input id="try-weight" type="range" min="100" max="900" step="100"></div>
+                        </div>
+                        <div class="try-form">
+                            <label for="try-space" class="try-label">
+                                <span>Letter Spacing</span>
+                                <span class="val3">0%</span>
+                            </label>
+                            <div class="range-form"><input id="try-space" type="range" min="-10" max="10"></div>
+                        </div>
+                        <div class="try-form">
+                            <label for="try-height" class="try-label">
+                                <span>Line Height</span>
+                                <span class="val4">208pt</span>
+                            </label>
+                            <div class="range-form"><input id="try-height" type="range" min="206" max="412"></div>
+                        </div>
+                    </div>
+                    <div class="try-txt">
+                        <label for="try-txtarea"><span class="blind">글자 입력</span></label>
+                        <textarea class="try-sphin" id="try-txtarea" placeholder="나무잎새 남실 바람이 바람위로" cols="30" rows="3">나무잎새 남실 바람이 바람에</textarea>
+                    </div>
+                </section>
+                <section class="sc-glyph">
+                    <div class="title-wrap">
+                        <span class="board-wrap"><span class="board"></span></span>
+                        <h2 class="title">OpenType 기능</h2>
+                    </div>
+
+                    <ul class="glyph-list">
+                        <div class="glyph-box">
+                            <li class="glyph-item">
+                                <div class="head">
+                                    <span>직선 스타일 3</span>
+                                    <code>ss08</code>
+                                </div>
+                                <div class="content">
+                                    12<span class="color-text">3</span>4567890
+                                </div>
+                            </li>
+                        </div>
+                        <div class="glyph-box">
+                            <li class="glyph-item">
+                                <div class="head">
+                                    <span>중간 크기 심벌</span>
+                                    <code>ss10</code>
+                                </div>
+                                <div class="content">
+                                    <span class="color-text">①②🄰🄱</span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="glyph-box">
+                            <li class="glyph-item">
+                                <div class="head">
+                                    <span>외곽선 심벌</span>
+                                    <code>ss11</code>
+                                </div>
+                                <div class="content">
+                                    ①②🄰🄱<span class="color-text"></span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="glyph-box">
+                            <li class="glyph-item">
+                                <div class="head">
+                                    <span>원형 심벌</span>
+                                    <code>ss12</code>
+                                </div>
+                                <div class="content">
+                                    ①②<span class="color-text">🄰🄱</span><span class="color-text"></span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="glyph-box">
+                            <li class="glyph-item">
+                                <div class="head">
+                                    <span>사각형 심벌</span>
+                                    <code>ss13</code>
+                                </div>
+                                <div class="content">
+                                    <span class="color-text">①②</span>🄰🄱<span class="color-text"></span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="glyph-box">
+                            <li class="glyph-item">
+                                <div class="head">
+                                    <span>채워진 심벌</span>
+                                    <code>ss14</code>
+                                </div>
+                                <div class="content">
+                                    <span class="color-text">①②🄰🄱</span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="glyph-box">
+                            <li class="glyph-item">
+                                <div class="head">
+                                    <span>작은 심벌</span>
+                                    <code>ss15</code>
+                                </div>
+                                <div class="content">
+                                    <span class="color-text">󰀁󰀂</span>
+                                </div>
+                            </li>
+                        </div>
+                        <div class="glyph-box">
+                            <li class="glyph-item">
+                                <div class="head">
+                                    <span>큰 심벌</span>
+                                    <code>ss16</code>
+                                </div>
+                                <div class="content">
+                                    <span class="color-text">󰀁󰀂</span>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </section>
+            </div>
+            <section class="sc-ad">
+                <div class="ad-inner">
+                   <div class="ad-wrapper">
+                       <a href="" class="link-ad1">
+                            <div class="badge">
+                                <span class="ad-number">①</span>
+                                <span class="ad-label">buy</span>
+                            </div>
+                            <div class="ad-title">
+                                <p class="title">
+                                    PRETENDARD<br>
+                                    구입하기
+                                </p>
+                            </div>
+                        </a>
+                       <a href="" class="link-ad2">
+                            <div class="badge">
+                                <span class="ad-number">②</span>
+                                <span class="ad-label">try for free</span>
+                            </div>
+                            <div class="ad-title">
+                                <p class="title">
+                                    PRETENDARD<br>
+                                    무료로<br>
+                                    사용해보기
+                                </p>
+                            </div>
+                        </a>
+                       <a href="" class="link-ad3">
+                            <div class="badge">
+                                <span class="ad-number">③</span>
+                                <span class="ad-label">Pretendard font</span>
+                            </div>
+                            <div class="ad-title">
+                                <p class="title">
+                                    PRETENDARD<br>
+                                    폰트<br>
+                                    비교해보기
+                                </p>
+                            </div>
+                       </a>
+                   </div>
+                </div>
+                <div class="ad-bg">
+                   <div class="ad-img">
+                    <img src="" alt="">
+                   </div> 
+                   <div class="ad-img">
+                    <img src="" alt="">
+                   </div> 
+                   <div class="ad-img">
+                    <img src="" alt="">
+                   </div> 
+                   <div class="ad-img">
+                    <img src="" alt="">
+                   </div> 
+                   <div class="ad-img">
+                    <img src="" alt="">
+                   </div> 
+                   <div class="ad-img">
+                    <img src="" alt="">
+                   </div> 
+                </div>
+            </section>
+            <div class="inner">
+                <section class="sc-credits">
+                    <h2 class="cd-title">Credits</h2>
+                    <div class="credits-inner">
+                        <div class="credits-box">
+                            <strong class="title">Typeface</strong>
+                            <div class="credits-info">
+                                <p class="desc">
+                                    이제 Pretendard JP를 통해 
+                                    일본 환경에서도 보다 쾌적하게 다국어를 섞어 쓸 수 있다. 
+                                    CJK—동북아 문화권과, 동북아 문화권이 아닌 다른 글자를 서로 더욱 자
+                                    연스럽게 읽을 수 있도록 가나와 한자 크기를 기존 CJK 글꼴보다 6.25% 더 줄였다.
+                                     따라서 영어와 한국어에 맞게 레이아웃을 잡았더라도 일본어를 대응하면서 레이아웃이 벗어나는 것에 대해 크게 고려하지 않아도 된다. 
+                                </p>
+                                <p class="desc"> 한국의 단어 표기법을 고려해 Inter에 없던 화살괄호와 낫표를 추가하고, 출판 환경을 고려해 한글에 맞춘 줄임표를 스타일 세트—ss05로 지원한다. 음표 심벌은 ★과 ♥를 새로 맞추면서 함께 추가했다. 따라서 이모티콘을 즐겨 사용한다면 음표가 기존보다 조금 더 예쁘게 보일 수 있다. ♪(๑ᴖ◡ᴖ๑)♪
+                                <p class="desc">
+                                    Pretendard에서는 Inter와 같은 OpenType 기능을 지원한다. 다만 -apple-system을 바탕으로 한 타이포그래피 환경을 고려해 스타일 세트는 San Francisco와 동일하다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="credits-box">
+                            <strong class="title">Visuals</strong>
+                            <p class="desc">
+                                Inter는 글자 크기가 11px일 때 가장 또렷하게 보일 수 있게 11px 그리드에서 구조가 잡혀 있는데, apple-system을 바탕으로 구성한 레이아웃이 Pretendard를 쓰는 환경에서도 동일하게 작동할 수 있게 글자 높이를 San Francisco와 맞췄다.
+                            </p>
+                            <p class="desc">Visual Artist @barthur</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="ft-copy">
+                <span class="ft-glyph">
+                    <img src="./assets/images/glyph.svg" alt="glyph">
+                </span>
+                <p class="copy">
+                Copyright © 2023 pretendard font<br>
+                Website by Jungah Bae
+                </p>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
