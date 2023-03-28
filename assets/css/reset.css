@@ -9,12 +9,14 @@ ul{list-style: none;}
 a {text-decoration:none}
 table {border-collapse:collapse;border-spacing:0}
 fieldset{border: 0;}
+.wrapper{
+    overflow-x: hidden;
+}
 body{
     background: #000;
     color: #fff;
     font-size: 16px;
     font-family:'Pretendard';
-    overflow-x: hidden;
     cursor: none;
     min-width: 1400px;
 }
